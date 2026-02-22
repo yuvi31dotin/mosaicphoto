@@ -1,4 +1,4 @@
-async function generateMosaic() {
+function generateMosaic() {
     const mainImgInput = document.getElementById('mainImage');
     const canvas = document.getElementById('mosaicCanvas');
     const ctx = canvas.getContext('2d');
